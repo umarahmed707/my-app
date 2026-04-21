@@ -11,3 +11,78 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container{  
+  display: flex;
+  flex-direction: column;
+    width: 45%;
+  border-radius: 16px;
+    background-color: white;
+
+border-radius: 16px;
+  margin: 20px 20px;
+  border: 1px solid black;
+
+  
+
+}
+.card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  
+  padding: 10px;
+
+}
+.card-main{
+  display: flex;
+  gap:10px;
+  padding: 10px 20px;
+  
+
+}
+
+
+.right {
+  display: flex;
+  align-items: center;   /* vertically center */
+  gap: 15px;
+  margin: 0px 20px;              /* images ke darmiyan distance */
+}
+
+.right .img1 {
+  width: 20px;           /* size control */
+  height: 10px;
+ 
+}
+.cardsid {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+.comment{
+  margin: 0% 40px;
+  font-size: 18px;
+}
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px; /* time aur image qareeb */
+}
+.imgpro{
+  display: flex;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+.imgpost{
+  width: 100%;
+border-radius: 16px;
+margin-top: 10px;
+
+}
+.card-main{
+  display: flex;
+}

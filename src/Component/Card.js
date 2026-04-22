@@ -12,28 +12,28 @@ const Card = (props) => {
             <div className="card">
 
                 <div className="card-main">
-                    <img src={img1} alt="My Image" className="imgpro" />
+                    <img src={img1} alt="My " className="imgpro" />
                     <div>
 
                         <p className="cardsid">
                             <b>{props.name}</b>
                             <div className="bottom">
                                 <span>{props.min}</span>
-                                <img src={img4} className="imgpost" />
+                                <img src={img4} alt="app" className="imgpost" />
                             </div>
                         </p>
 
                     </div>
                 </div>
                 <div className="right">
-                    <img src={img3} className="img1"/>
-                    <img src={img5} className="img2"/>
+                    <img src={img3} alt="app" className="img1"/>
+                    <img src={img5} alt="app" className="img2"/>
                 </div>
 
             </div>
             <div>
                 <p className="comment">{props.comment}</p>
-                <img src={img2} className="imgpost" />
+                <img src={img2} alt="app" className="imgpost" />
             </div>
         </div>
 
